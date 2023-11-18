@@ -11,5 +11,4 @@ const fruits = [
   "персик",
 ];
 
-fruits.splice(1, fruits.length - 3);
-console.log(fruits);
+console.log(fruits.slice(1, fruits.length - 2));
